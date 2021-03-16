@@ -106,3 +106,60 @@ header a {
 .contact-section {
     margin-bottom: 20px;
 }
+
+.projects {
+    flex: 75%;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+/* .secondary-projects-wrapper {
+    display: flex;
+} */
+
+.secondary-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.primary-project {
+    position: relative;
+}
+
+.primary-project img {
+    width: 99%;
+    height: auto;
+}
+
+/* .primary-project h3 {
+    position: absolute;
+    left: 67%;
+    bottom: 26px;
+    background-color: var(--aqua);
+    font-size: 33px;
+    color: var(--dark-blue);
+    padding: 10px;
+} */
+
+.secondary-project {
+    position: relative;
+}
+
+.secondary-project h3, .primary-project h3 {
+    position: absolute;
+    left: 0;
+    bottom: 22px;
+    background-color: var(--aqua);
+    font-size: 22px;
+    color: var(--dark-blue);
+    padding: 10px;
+}
+
+.projects img {
+    border: solid;
+    border-width: 4px;
+    border-color: var(--aqua);
+    margin-bottom: 5px;
+}
+
