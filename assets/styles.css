@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+:root {
+    --dark-blue: #30343E;
+    --aqua: #80CECE;
+    --gray: #EDEDF7;
+}
+
+* {
+    background-color: var(--gray);
+    color: var(--dark-blue);
+    margin: 0;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--dark-blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    background-color: var(--aqua);
+    color: var(--dark-blue);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 33px;
+    padding-left: 53px;
+    padding-right: 10px;
+}
+
+nav {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    
+}
+
+header a {
+    color: var(--aqua);
+    background-color: transparent;
+    padding-right: 18px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.sub-header {
+    position: relative;
+    margin-bottom: 2%;
+}
+
+.sub-header img {
+    width: 100%;
+    height: auto;
+}
+
+.sub-header h3 {
+    position: absolute;
+    left: 67%;
+    bottom: 26px;
+    background-color: var(--aqua);
+    font-size: 33px;
+    color: var(--dark-blue);
+    padding: 10px;
+}
+
+.about-section, .work-section {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.about-me, .about-work {
+    display: flex;
+    flex: 25%;
+    border-right: solid;
+    border-color: var(--dark-blue);
+    padding-right: 2%;
+    color: var(--dark-blue);
+    font-size: 32px;
+    text-align: right;
+}
+
+.bio {
+    flex:75%;
+    padding-left: 5%;
+    padding-right: 10%;
+    font-size: 16px;
+}
