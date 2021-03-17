@@ -6,4 +6,4 @@ https://mknowlton89.github.io/02-portfolio-updated/
 # The GitHub repo is here
 https://github.com/mknowlton89/02-portfolio-updated
 # Here is a screenshot of the finished portfolio.
-assets/screenshot.png
+https://www.dropbox.com/s/c94q9u5eooxrdem/screenshot.png?dl=0
