@@ -61,7 +61,7 @@ header a {
 
 .sub-header h3 {
     position: absolute;
-    left: 67%;
+    right: 50px;
     bottom: 26px;
     background-color: var(--aqua);
     font-size: 33px;
@@ -87,7 +87,7 @@ header a {
 .bio, .contact-links {
     flex:75%;
     padding-left: 5%;
-    padding-right: 10%;
+    padding-right: 5%;
     font-size: 16px;
 }
 
@@ -110,7 +110,7 @@ header a {
 .projects {
     flex: 75%;
     padding-left: 5%;
-    padding-right: 10%;
+    padding-right: 5%;
 }
 
 /* .secondary-projects-wrapper {
@@ -146,7 +146,7 @@ header a {
     position: relative;
 }
 
-.secondary-project h3, .primary-project h3 {
+/* .secondary-project h3, .primary-project h3 {
     position: absolute;
     left: 0;
     bottom: 22px;
@@ -154,6 +154,26 @@ header a {
     font-size: 22px;
     color: var(--dark-blue);
     padding: 10px;
+} */
+
+.title {
+    position: absolute;
+    left: 0;
+    bottom: 22px;
+    background-color: var(--aqua);
+    font-size: 22px;
+    color: var(--dark-blue);
+    padding: 10px;
+    line-height: 27px;
+}
+
+.title h3, .title p {
+    background-color: transparent;
+}
+
+.title p {
+    font-size: 16px;
+    font-weight: lighter;
 }
 
 .projects img {
@@ -163,3 +183,73 @@ header a {
     margin-bottom: 5px;
 }
 
+.primary-project img:hover, .secondary-project img:hover {
+    
+}
+
+@media only screen and (max-width: 755px) {
+    header {
+      flex-direction: column;
+      padding-top: 10px;
+    }
+
+    .work-section {
+        flex-direction: column;
+    }
+
+    .primary-project img {
+        width: 100%;
+    }
+
+    .secondary-project img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-work h2 {
+        text-align: center;
+        border-bottom: solid;
+        border-color: var(--dark-blue);
+        margin-bottom: 20px;
+    }
+
+    .about-section, .contact-section {
+        flex-direction: column;
+    }
+
+    .about-me, .contact-links {
+        padding: 0;
+        border: none;
+        border-bottom: solid;
+        border-color: var(--dark-blue);
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .contact-title {
+        text-align:center;
+        border-bottom: solid;
+    
+    }
+
+    .contact-links{
+        flex-direction: column;
+        border-bottom: none;
+        line-height: 30px;
+    }
+
+    .contact-links a {
+        padding-top: 30px;
+    }
+
+    .secondary-projects {
+        justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width: 430px) {
+    nav a {
+      font-size: 14px;
+    }
+  }
