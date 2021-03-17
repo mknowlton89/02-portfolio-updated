@@ -183,6 +183,26 @@ header a {
     margin-bottom: 5px;
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 97%;
+    background-color: var(--dark-blue);
+    opacity: 20%;
+}
+
+.secondary-project .overlay {
+    height: 96%;
+}
+
+.overlay:hover {
+    opacity: 0%;
+}
+
+
+
 /* .primary-project img::before {
     position: absolute;
     top: 0;
@@ -252,6 +272,15 @@ header a {
 
     .secondary-projects {
         justify-content: center;
+    }
+
+    .overlay {
+        width: 101%;
+    }
+
+    .secondary-project .overlay {
+        width: 102%;
+        height: 95%;
     }
   }
 
